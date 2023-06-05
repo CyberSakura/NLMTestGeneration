@@ -52,6 +52,19 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.pitest</groupId>
+            <artifactId>pitest-maven</artifactId>
+            <version>1.14.1</version>
+            <type>maven-plugin</type>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.10</version>
+            <type>maven-plugin</type>
+        </dependency>
     </dependencies>
 
     <build>
@@ -65,7 +78,6 @@
                     <target>8</target>
                 </configuration>
             </plugin>
-
         </plugins>
 
     </build>

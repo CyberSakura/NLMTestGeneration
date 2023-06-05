@@ -175,7 +175,7 @@ public class BoardTestGPT {
 
         board.printBoard();
 
-        String expectedOutput = "X..\n.X.\n..X\n"; // Expected board output
+        String expectedOutput = "X.." + System.lineSeparator() + ".X." + System.lineSeparator() + "..X" + System.lineSeparator(); // Expected board output
         String printedBoard = outputStream.toString();
         Assertions.assertEquals(expectedOutput, printedBoard);
     }

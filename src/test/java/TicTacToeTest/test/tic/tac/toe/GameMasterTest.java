@@ -19,7 +19,7 @@ public class GameMasterTest extends BaseTest {
 
 	HashMap<Integer, Player> playersMap = new HashMap<Integer, Player>();
 
-	final String prefix = "src/test/java/test/resources/";
+	final String prefix = "src/test/java/TicTacToeTest/test/resources/";
 	final String correct_three_different_types_players = "config.properties";
 	final String simple_2_players = "config_simple_2_players.properties";
 	final String invalid_board = "invalid_config_board.properties";

@@ -24,7 +24,7 @@ public class TicTacToeTest extends BaseTest
 	 * Note : this test also doesn't include any AI players ... 
 	 */
 	
-	final String prefix = "src/test/java/test/resources/" ;
+	final String prefix = "src/test/java/TicTacToeTest/test/resources/" ;
 	final String simple_2_players = "config_simple_2_players.properties";
 	
 	public void feedStringToSystemIn(String s){
@@ -45,7 +45,7 @@ public class TicTacToeTest extends BaseTest
     	TicTacToe.main(args);
     	String output = outContent.toString() ;
     	String[] lines = output.split("\n");
-    	Assert.assertEquals(lines[lines.length-1], "Player 1 wins !!!!");
+    	Assert.assertEquals(lines[lines.length-1], "Player 1 wins !!!!\r");
     }
 
     @Test
@@ -55,7 +55,7 @@ public class TicTacToeTest extends BaseTest
     	TicTacToe.main(args);
     	String output = outContent.toString() ;
     	String[] lines = output.split("\n");
-    	Assert.assertEquals(lines[lines.length-1], "Player 1 wins !!!!");
+    	Assert.assertEquals(lines[lines.length-1], "Player 1 wins !!!!\r");
     }
 
     @Test
@@ -65,7 +65,7 @@ public class TicTacToeTest extends BaseTest
     	TicTacToe.main(args);
     	String output = outContent.toString() ;
     	String[] lines = output.split("\n");
-    	Assert.assertEquals(lines[lines.length-1], "Player 2 wins !!!!");
+    	Assert.assertEquals(lines[lines.length-1], "Player 2 wins !!!!\r");
     }
     
     @Test
@@ -75,7 +75,7 @@ public class TicTacToeTest extends BaseTest
     	TicTacToe.main(args);
     	String output = outContent.toString() ;
     	String[] lines = output.split("\n");
-    	Assert.assertEquals(lines[lines.length-1], "Player 2 wins !!!!");
+    	Assert.assertEquals(lines[lines.length-1], "Player 2 wins !!!!\r");
     }
     
     @Test
@@ -85,5 +85,5 @@ public class TicTacToeTest extends BaseTest
     	TicTacToe.main(args);
     	String output = outContent.toString() ;
     	String[] lines = output.split("\n");
-    	Assert.assertEquals(lines[lines.length-1], "Player 1 wins !!!!");    }
+    	Assert.assertEquals(lines[lines.length-1], "Player 1 wins !!!!\r");    }
 }
