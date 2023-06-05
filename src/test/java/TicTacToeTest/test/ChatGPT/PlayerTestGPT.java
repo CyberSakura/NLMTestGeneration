@@ -17,7 +17,7 @@ import TicTacToe.players.Player;
 
 import java.util.HashMap;
 
-public class PlayerTest {
+public class PlayerTestGPT {
     private HashMap<Integer, Player> playersMap;
     private HumanPlayer humanPlayer;
     private AIPlayer aiPlayer;
