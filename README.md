@@ -2,13 +2,13 @@
 This project is used to test the test suite generate ability from Natural Language Model ChatGPT (model v3.5) and Microsoft Bing
 
 ## Test Subject
-### 1. TicTacToe (The project is from [mister0/TicTacToe](https://github.com/mister0/TicTacToe))
+### TicTacToe (The project is from [mister0/TicTacToe](https://github.com/mister0/TicTacToe))
 A simple console-running tic-tac-toe game writen by java, and build by maven.
 
 
 ## Test Generation Subject
 ### 1. [ChatGPT](https://openai.com/blog/chatgpt)
-### 2. [Google Bard](https://bard.google.com/)
+### 2. [Google Bard](https://bard.google.com/) (Didn't evaluate bard's result since the generation result is not correct enough)
 
 ## Evaluation Result
 The Evaluation result is based on two metrics: 
